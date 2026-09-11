@@ -1,0 +1,1 @@
+export function fitCanvas(canvas:HTMLCanvasElement){const dpr=Math.min(devicePixelRatio,2),rect=canvas.getBoundingClientRect();canvas.width=Math.round(rect.width*dpr);canvas.height=Math.round(rect.height*dpr);const context=canvas.getContext('2d');context?.scale(dpr,dpr);return{context,width:rect.width,height:rect.height,dpr}}
