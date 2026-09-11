@@ -1,0 +1,1 @@
+export default function Loading(){return <main style={{minHeight:'100vh',display:'grid',placeItems:'center',background:'#080b0e',color:'#b6f36a',fontFamily:'monospace'}}>CALIBRATING TELEMETRY...</main>}
