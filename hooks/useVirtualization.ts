@@ -1,0 +1,1 @@
+export function useVirtualization(scrollTop:number,rowHeight:number,viewportHeight:number,total:number){const start=Math.max(0,Math.floor(scrollTop/rowHeight)-2);const end=Math.min(total,start+Math.ceil(viewportHeight/rowHeight)+4);return{start,end,offset:start*rowHeight,totalHeight:total*rowHeight}}
