@@ -1,5 +1,5 @@
 # Pulse Telemetry Lab 
-## https://pulse-performance-dashboard.onrender.com/  (deployed website)
+## ⭐⭐ https://pulse-performance-dashboard.onrender.com/  (deployed website)
 
 
 Pulse renders line, scatter, bar, and heatmap visualizations from one bounded data stream. Every dense visualization is drawn directly on Canvas, keeping React focused on application state and accessible controls—not individual pixels.
